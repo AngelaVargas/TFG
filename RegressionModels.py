@@ -53,5 +53,5 @@ y_pred_svr = svr_my_model.predict(X_test_scaled)
 
 r2_svr = r2_score(y_test,y_pred_svr)
 print "R2 SVR model:", r2_svr
-mse_svr = mean_squared_error(y_test, y_pred)
+mse_svr = mean_squared_error(y_test, y_pred_svr)
 print "MSE SVR model:", mse_svr
