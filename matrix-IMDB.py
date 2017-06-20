@@ -15,6 +15,7 @@ def get_data():
     lines_IMDB = csv.reader(f, delimiter=',')
 
     matrix = numpy.zeros((620,7))
+    y = numpy.zeros((620,1))
     i = 0
     
     for line_IMDB in lines_IMDB:
@@ -46,3 +47,4 @@ def get_data():
                               
                         i = i + 1
 
+    return matrix, y
