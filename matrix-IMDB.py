@@ -16,6 +16,7 @@ def get_data():
 
     matrix = numpy.zeros((620,7))
     y = numpy.zeros((620,1))
+    
     i = 0
     
     for line_IMDB in lines_IMDB:
