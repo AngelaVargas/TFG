@@ -4,12 +4,8 @@
 Created on Thu Jun  8 17:11:52 2017
 
 @author: angela
-
-Estructure of the matrix:
-    [year month day ]
-    ['date_1', 'rank_1', 'first_week','acum_euros_1', 
-   'euros_1', 'cines_1', 'screens_1', 'acum_espect_1', 'espect₁']
 """
+
 import numpy
 import csv
 
